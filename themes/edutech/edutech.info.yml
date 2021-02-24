@@ -1,0 +1,39 @@
+name: EduTech
+type: theme
+description: 'Theme for Education Technology'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap4
+
+# Stylesheets.
+stylesheets-remove:
+  - '@bootstrap4/css/style.css'
+
+# Libraries.
+libraries:
+  - edutech/global-styling
+  - edutech/fonts
+  - edutech/theme-script
+
+# Regions.
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content_above: 'Main content above'
+  content: 'Main content'
+  block_box_left: 'block box left'
+  block_box_right: 'block box right'
+  content_below: 'Main content below'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  footer_1: Footer One
+  footer_2: Footer Two
+  footer_3: Footer Three
+  footer_4: Footer Four
+  footer_5: Footer Five
+  footer_6: Footer Six
+  footer_sitemap: Footer Sitemap

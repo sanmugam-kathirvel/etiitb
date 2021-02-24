@@ -1,0 +1,7 @@
+.facilities-view {
+	@extend .product-view;
+
+	.facility-box:nth-child(even) {
+		@extend .offset-md-1;
+	}
+}

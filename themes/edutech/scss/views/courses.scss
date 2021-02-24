@@ -1,0 +1,22 @@
+.view-all-courses,
+.view-courses-phd,
+.view-courses-mtech {
+	.views-row {
+		margin-bottom: 40px;
+		border: 3px solid $lineColor;
+		padding: 20px;
+	}
+
+	.views-field-title {
+		max-width: 60%;
+		padding-left: 15px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-bottom: 20px;
+
+		font-size: 22px;
+		font-weight: 700;
+		color: $blue;
+		background: $lineColor;
+	}
+}

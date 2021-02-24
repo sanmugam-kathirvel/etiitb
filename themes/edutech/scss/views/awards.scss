@@ -1,0 +1,17 @@
+.awards-view {
+	@extend .product-view;
+
+	.award-box:nth-child(even) {
+		@extend .offset-md-1;
+	}
+
+	.award-box:hover {
+		.line-box {
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(235, 206, 125, 0.33) 100%), #F8F8F8;
+		}
+	}
+
+	a {
+		text-decoration: none;
+	}
+}

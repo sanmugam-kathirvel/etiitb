@@ -1,0 +1,60 @@
+.product-view {
+	margin-top: 70px;
+
+	.row {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.view-content {
+		.image,
+		.title,
+		.body,
+		.more {
+			max-width: 84%;
+			margin: 0 auto;
+		}
+
+		.image {
+			height: 200px;
+			background-size: cover;
+			background-position: 50% 50%;
+			margin-top: -70px;
+			border: 2px solid $lineColor;
+			border-radius: 4px;
+		}
+
+		.title {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+
+		.title,
+		.title a {
+			font-size: 22px;
+			line-height: 30.1px;
+			font-weight: 700;
+			text-align: left;
+			color: #505050;
+		}
+
+		.body {
+			text-align: justify;
+			margin-bottom: 50px;
+			color: #000000;
+		}
+
+		.more {
+			text-align: left;
+
+			a {
+				font-size: 14px;
+				line-height: 19.1px;
+				color: #000000;
+				background: $lineColor;
+				padding: 5px 10px;
+				border-radius: 4px;
+			}
+		}
+	}
+}

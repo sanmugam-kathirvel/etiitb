@@ -1,0 +1,24 @@
+// Override bootstrap framework variables.
+// Full list of variables in [path to themes/contrib]/bootstrap4/dist/bootstrap/4.4.1/scss/_variables.scss
+// or [path to themes/contrib]/bootstrap4/scss/_theme_variables.scss.
+
+//  variables
+// $font-size-base:               0.0625rem !default; // Assumes the browser default, typically `16px`
+// $font-size-base: 10px;
+// $font-size-base: 0.0625rem;
+$navbar-brand-image-height-lg: 66px !default;
+$grid-gutter-width:           20px !default;
+
+$container-max-widths: (
+  sm: 767px,
+  md: 991px,
+  lg: 1200px,
+  xl: 1300px
+) !default;
+
+// color
+$blue: #2861A3;
+$secondary: #E3CB88;
+$black: #000000;
+$white: #ffffff;
+$lineColor: #ECCD78;

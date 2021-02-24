@@ -1,0 +1,118 @@
+.region-content-above {
+    margin-top: 25px;
+}
+
+.region-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.region-content-below {
+    margin-bottom: 25px;
+}
+
+.region-sidebar-first,
+.region-sidebar-second {
+    margin-top: 25px;
+}
+
+.region-sidebar-first,
+.region-sidebar-second {
+    .block {
+        margin-bottom: 25px;
+    }
+}
+
+.region-content-above {
+    .navbar-nav {
+        flex-direction: row;
+
+        li {
+            border: 2px solid $lineColor;
+            box-sizing: border-box;
+            border-radius: 4px;
+
+            &:not(:last-child) {
+              margin-right: 10px;
+            }
+
+            a {
+                color: #7c7c7c;
+                
+                &.active,
+                &.is-active {
+                    background: $lineColor;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.region-sidebar-first {
+    .navbar-nav {
+        flex-direction: column;
+
+        li {
+            border: 2px solid $lineColor;
+            box-sizing: border-box;
+            border-radius: 4px;
+
+            &:not(:last-child) {
+              margin-bottom: 10px;
+            }
+
+            a {
+                color: #7c7c7c;
+                
+                &.active,
+                &.is-active {
+                    background: $lineColor;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+.has-nolink {
+    .navbar-nav {
+        li:first-of-type {
+            background: $blue;
+            border: 2px solid $blue;
+
+            span {
+                color: #ffffff;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.solid-box {
+    border: 2px solid $lineColor;
+    border-bottom: 10px solid $lineColor;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.vision-and-mission {
+    font-size: 16px;
+    line-height: 22.94px;
+    text-align: justify;
+    font-weight: 600;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .solid-box {
+        padding: 25px;
+        flex-basis: 48%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22.94px;
+    }
+}

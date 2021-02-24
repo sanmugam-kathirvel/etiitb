@@ -1,0 +1,51 @@
+.activities-view {
+	margin-top: 70px;
+
+	.row {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.view-content {
+		a,
+		a:hover {
+			text-decoration: none;
+		}
+
+		.title,
+		.body {
+			max-width: 84%;
+			margin: 0 auto;
+		}
+
+		.title {
+			margin-top: -50px;
+			margin-bottom: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 4px;
+			font-size: 22px;
+			line-height: 30.1px;
+			font-weight: 900;
+			text-align: center;
+			color: $blue;
+			background: $lineColor;
+		}
+
+		.body {
+			text-align: justify;
+			color: #000000;
+			font-size: 14px;
+			line-height: 19.1px;
+			text-decoration: none;
+		}
+
+		.line-box {
+			background: #f8f8f8;
+		}
+
+		.line-box:hover {
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(235, 206, 125, 0.33) 100%), #F8F8F8;
+		}
+	}
+}

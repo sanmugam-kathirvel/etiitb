@@ -1,0 +1,12 @@
+@mixin box-border () {
+    border: 2px solid #E2C983;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+// @content
+// @mixin b4-make-fixed-container {
+//     margin: 0 auto;
+//     @include make-container;
+//     @include make-container-max-widths();
+// }

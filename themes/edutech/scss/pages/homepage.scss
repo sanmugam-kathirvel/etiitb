@@ -1,0 +1,34 @@
+.homepage {
+    #block-edutech-content {
+        margin-top: 2rem;
+    }
+    .box-tailed {
+        margin-bottom: 1rem;
+    }
+    .block-box-left-right {
+        margin-bottom: 0.5rem;
+        .block-box-left, .block-box-right {
+            margin-bottom: 2rem;
+        }
+    }
+    .box-featured {
+        margin-bottom: 1rem;
+    }
+    @include media-breakpoint-up(lg) {
+        #block-edutech-content {
+            margin-top: 4rem;
+        }
+        .box-tailed {
+            margin-bottom: 3rem;
+        }
+        .block-box-left-right {
+            margin-bottom: 1.5rem;
+            .block-box-left, .block-box-right {
+                margin-bottom: 3rem;
+            }
+        }
+        .box-featured {
+            margin-bottom: 3rem;
+        }
+    }
+}

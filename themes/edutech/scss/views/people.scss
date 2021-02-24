@@ -1,0 +1,65 @@
+.people-box {
+	margin-bottom: 25px;
+
+	.image {
+		width: 163px;
+		height: 192px;
+		background-size: cover;
+		background-position: 50% 50%;
+		border-radius: 4px;
+	}
+
+	.name {
+		font-size: 22px;
+		line-height: 30.01px;
+		font-weight: 900;
+		color: $blue;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.interests {
+		font-size: 14px;
+		line-height: 19.1px;
+		text-align: justify;
+	}
+
+	.guide {
+		margin-top: 15px;
+		font-size: 14px;
+		line-height: 19.1px;
+	}
+
+	.extra {
+		margin-top: 35px;
+		font-size: 14px;
+		line-height: 19.1px;
+	
+		.website {
+			a {
+				padding: 5px 20px;
+				background: $lineColor;
+				color: #000000;
+				border-radius: 4px;
+				text-decoration: none;
+
+				&:hover {
+					background: $blue;
+					color: #ffffff;
+				}
+			}
+		}
+
+		.dot {
+			width: 13px;
+			height: 13px;
+			background: $lineColor;
+			border-radius: 4px;
+			display: inline-block;
+			position: relative;
+			top: 2px;
+			margin-right: 5px;
+		}
+	}
+
+}

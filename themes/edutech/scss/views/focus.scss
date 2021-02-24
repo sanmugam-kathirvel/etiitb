@@ -1,0 +1,60 @@
+.view-focus-areas {
+	.title {
+		padding: 20px;
+		text-align: center;
+		max-width: 80%;
+		margin-bottom: 10px;
+		margin-left: auto;
+	}
+
+	.title a {
+		font-size: 25px;
+		font-weight: 900;
+		line-height: 34.1px;
+		color: #ffffff;
+	}
+
+	.body p {
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 19.1px;
+		text-align: justify;
+		margin-bottom: 10px;
+	}
+
+	.more {
+		text-align: right;
+
+		a {
+			font-size: 14px;
+			line-height: 19.1px;
+			color: #000000;
+			background: $lineColor;
+			padding: 5px 15px;
+		}
+	}
+}
+
+.views-view-grid {
+	.focus-box:nth-child(1n+1) {
+		.title {
+			background: #99D883;
+		}
+	}
+	.focus-box:nth-child(2n+2) {
+		.title {
+			background: #9E78CE;
+		}
+	}
+	.focus-box:nth-child(3n+3) {
+		.title {
+			background: #EA8484;
+		}
+	}
+	.focus-box:nth-child(4n+4) {
+		.title {
+			background: #FCA371;
+		}
+	}
+
+}

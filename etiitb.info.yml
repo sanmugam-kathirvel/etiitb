@@ -1,0 +1,96 @@
+name: etiitb
+core: 8.x
+type: profile
+description: 'IIT Bombay Department Website Distribution'
+version: '8.8.x'
+
+distribution:
+  name: 'IIT Bombay Depatment Website Distribution'
+
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+ #contrib
+  - config_sync
+  - config_merge_filter
+  - config_distro_ignore
+  - config_update_ui
+  - admin_toolbar_tools
+  - admin_toolbar_links_access_filter
+  - name
+  - token
+  - smtp
+  - search_api_solr
+  - search_api_autocomplete
+  - facets
+  - coffee
+  - devel
+  - migrate_tools
+  - migrate_plus
+  - migrate_source_csv
+  - slick_ui
+  - slick_views
+  - slick_extras
+  - slick_devel
+  - ds
+  - spamspan
+  - libraries
+  - ldap_servers
+  - ldap_authentication
+  - ldap_authorization
+  - ldap_help
+  - ldap_query
+  - authorization_drupal_roles
+  - views_bootstrap
+  - twig_field_value
+  - pathauto
+  - image_widget_crop
+ #custom
+  - acadmix_event
+  - acadmix_faculty
+  - acadmix_news
+  - acadmix_slider
+  - course_allotment
+  - course_details
+  - laboratory_facility
+  - research_glimpses
+  - staff_page
+  - student_page
+themes:
+  - bartik
+  - seven
+  - bootstrap4
+  - etiitb
